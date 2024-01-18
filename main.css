@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+.smth > div > h2 {
+    position: absolute;
+    left: 45%;
+}
+
+.smth > .nn {
+    padding: 20px;
+}
+
+.plan {
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+}
+
+.plan h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#floor-list, #room-list, #floor-plan {
+    margin: 20px;
+}
+
+#floor-buttons, #room-buttons {
+    list-style-type: none;
+    padding: 0;
+}
+
+#floor-buttons li, #room-buttons li {
+    margin-bottom: 5px;
+}
+
+#floor-plan-image {
+    max-width: 100%;
+    height: auto;
+}
+
+div > .plan {
+    padding: 20px;
+}
